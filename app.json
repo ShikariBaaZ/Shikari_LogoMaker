@@ -1,0 +1,33 @@
+{
+    "name": "Shikari Logo Maker Bot",
+    "description": "A Cool And Awesome Telegram Bot To Create Cool Logos, Powered By Shikari Network",
+    "keywords": [
+        "telegram",
+        "logo maker",
+        "logo",
+        "bot"
+    ],
+    "repository": "https://github.com/ShikariBaaZ/Shikari_LogoMaker",
+    "env": {
+        "API_ID": {
+            "description": "Get this value from my.telegram.org"
+        },
+        "API_HASH": {
+            "description": "Get this value from my.telegram.org"
+        },
+        "BOT_TOKEN": {
+            "description": "Get this value from @BotFather"
+        }
+    },
+    "buildpacks": [
+        { 
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
