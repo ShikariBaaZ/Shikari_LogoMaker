@@ -31,3 +31,6 @@
 
 ### Special Credits 💖
 - [SHIKARI](https://github.com/ShikariBaaZ): Dev
+
+### Credits
+[TechZBots](https://t.me/TechZBots)
